@@ -370,6 +370,10 @@ require 'support/factory_girl'
 - понятие о  i18n (internationalization)
 - применение i18n в capybara
 - before и after hooks
+- * Примечание: ссылка на capybara изменилась теперь: https://github.com/teamcapybara/capybara#using-capybara-with-rspec , для её настройки добавьте в ваш файл rails_helper строчку (или в rspec_helper если используется старая версия rspec)
+```ruby
+  require 'capybara/rspec'
+```
  
 Урок 48
 
